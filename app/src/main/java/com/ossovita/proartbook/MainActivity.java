@@ -20,10 +20,10 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
     ListView li;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstancecommState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        li = findViewById(R.id.listView);
+        li = findViewById(R.id.listVie);
         ArrayList<String> artNameList = new ArrayList<>();
         ArrayList<Bitmap> artImageList = new ArrayList<Bitmap>();
         ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1,artNameList);
